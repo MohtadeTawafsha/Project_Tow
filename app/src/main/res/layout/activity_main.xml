@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/imagelogin"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="220dp"
+        android:fontFamily="sans-serif"
+        android:text="Learn Animals"
+        android:textColor="@color/black"
+        android:textSize="40dp"
+        android:textStyle="italic" />
+    <Button
+        android:id="@+id/btStart"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Strat"
+        android:textSize="25dp"
+        android:shadowRadius="@integer/material_motion_duration_long_1"
+        android:backgroundTint="@color/black"
+        android:textColor="@color/white"
+        android:textStyle="italic"
+        android:layout_marginTop="180dp"
+        android:onClick="btnLogInOnClick"
+        />
+
+</LinearLayout>
